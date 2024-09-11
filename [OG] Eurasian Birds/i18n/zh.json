@@ -1,0 +1,95 @@
+{
+    "birdie.OakJay.commonName": "松鸦",
+    "birdie.OakJay.scientificName": "Garrulus glandarius",
+    "birdie.OakJay.attribute.1": "黑色胡须条纹",
+    "birdie.OakJay.attribute.2": "蓝色飞羽",
+    "birdie.OakJay.funFact": "它可以在喙下的囊中储存多达四个橡子，每年在土壤中藏匿超过 4000 个橡子！",
+    
+    "birdie.BlueTit.commonName": "蓝山雀",
+    "birdie.BlueTit.scientificName": "Cyanistes caeruleus",
+    "birdie.BlueTit.attribute.1": "黄色胸部",
+    "birdie.BlueTit.attribute.2": "细黑色领圈",
+    "birdie.BlueTit.funFact": "它们吃对作物有害的昆虫，对任何园艺爱好者来说都是好朋友。",
+    
+    "birdie.Bullfinch.commonName": "红腹雀",
+    "birdie.Bullfinch.scientificName": "Pyrrhula pyrrhula",
+    "birdie.Bullfinch.attribute.1": "丰满的身体",
+    "birdie.Bullfinch.attribute.2": "黑色帽子",
+    "birdie.Bullfinch.attribute.3": "红色胸部和脸颊（雄性）",
+    "birdie.Bullfinch.funFact": "雄性在求偶时会向雌性献上一根小树枝，然后一起筑巢。",
+    
+    "birdie.RedCrestedPochard.commonName": "红头潜鸭",
+    "birdie.RedCrestedPochard.scientificName": "Netta rufina",
+    "birdie.RedCrestedPochard.attribute.1": "圆头",
+    "birdie.RedCrestedPochard.attribute.2": "红色眼睛和喙（雄性）",
+    "birdie.RedCrestedPochard.funFact": "这类鸭子可能会将蛋放在其他鸭子的巢里，让它们抚养小鸭子！",
+    
+    "birdie.WhiteStork.commonName": "白鹳",
+    "birdie.WhiteStork.scientificName": "Ciconia ciconia",
+    "birdie.WhiteStork.attribute.1": "大约 4 英尺高",
+    "birdie.WhiteStork.attribute.2": "长红腿",
+    "birdie.WhiteStork.funFact": "白鹳通过喙的碰撞声来交流，快速地张合喙。",
+    
+    "birdie.CommonMagpie.commonName": "喜鹊",
+    "birdie.CommonMagpie.scientificName": "Pica pica",
+    "birdie.CommonMagpie.attribute.1": "色彩斑斓的黑色羽毛",
+    "birdie.CommonMagpie.attribute.2": "大声喋喋不休",
+    "birdie.CommonMagpie.funFact": "由于高脑体重比，它被认为是最聪明的鸟类。",
+    
+    "birdie.GreyCuckoo.commonName": "灰杜鹃",
+    "birdie.GreyCuckoo.scientificName": "Cuculus canorus",
+    "birdie.GreyCuckoo.attribute.1": "条纹腹部",
+    "birdie.GreyCuckoo.attribute.2": "黄色腿",
+    "birdie.GreyCuckoo.attribute.3": "雄性的独特鸣声",
+    "birdie.GreyCuckoo.funFact": "雌性将卵产在其他鸟类的巢中，由它们抚养雏鸟。",
+    
+    "birdie.GoldenOriole.commonName": "金莺",
+    "birdie.GoldenOriole.scientificName": "Oriolus oriolus",
+    "birdie.GoldenOriole.attribute.1": "粉色喙",
+    "birdie.GoldenOriole.attribute.2": "亮黄色的身体（雄性）",
+    "birdie.GoldenOriole.funFact": "有时会在几天内吃掉一棵樱桃树的整片果实！",
+    
+    "birdie.RiverKingfisher.commonName": "河边翠鸟",
+    "birdie.RiverKingfisher.scientificName": "Alcedo atthis",
+    "birdie.RiverKingfisher.attribute.1": "色彩斑斓的蓝色背部",
+    "birdie.RiverKingfisher.attribute.2": "粉色下喙（雌性）",
+    "birdie.RiverKingfisher.funFact": "这种潜水鸟每天吃掉 20 克鱼，相当于其体重的一半！",
+    
+    "birdie.SquireHobby.commonName": "短翅隼",
+    "birdie.SquireHobby.scientificName": "Falco subbuteo",
+    "birdie.SquireHobby.attribute.1": "灰色条纹的白色腹部",
+    "birdie.SquireHobby.attribute.2": "明亮的黄色腿",
+    "birdie.SquireHobby.attribute.3": "红色的“裤子”",
+    "birdie.SquireHobby.funFact": "像所有猎鹰一样，它不会自己筑巢，而是重用乌鸦的旧巢。",
+    
+    "birdie.GreaterFlamingo.commonName": "大火烈鸟",
+    "birdie.GreaterFlamingo.scientificName": "Phoenicopterus roseus",
+    "birdie.GreaterFlamingo.attribute.1": "粉白色羽毛",
+    "birdie.GreaterFlamingo.funFact": "其颜色来自于摄取富含类胡萝卜素的虾。",
+    
+    "birdie.GemSeaPuffin.commonName": "宝石海鹦",
+    "birdie.GemSeaPuffin.scientificName": "Fratercula arctica",
+    "birdie.GemSeaPuffin.attribute.1": "宽阔的彩色喙",
+    "birdie.GemSeaPuffin.attribute.2": "结实的身体",
+    "birdie.GemSeaPuffin.funFact": "虽然这只“海鹦”在空中不够优雅，但它是一位出色的潜水者！",
+    
+    "birdie.TawnyOwl.commonName": "褐鸮",
+    "birdie.TawnyOwl.scientificName": "Strix aluco",
+    "birdie.TawnyOwl.attribute.1": "粗壮的身体",
+    "birdie.TawnyOwl.attribute.2": "绒毛般的外观",
+    "birdie.TawnyOwl.attribute.3": "心形面盘",
+    "birdie.TawnyOwl.funFact": "这只看起来柔软的猫头鹰喜欢在高高的常春藤覆盖的树上隐藏起来。",
+    
+    "birdie.NorthernTern.commonName": "北方海鸥",
+    "birdie.NorthernTern.scientificName": "Thalasseus sandvicensis",
+    "birdie.NorthernTern.attribute.1": "黄色尖端黑色喙",
+    "birdie.NorthernTern.attribute.2": "黑色帽子",
+    "birdie.NorthernTern.funFact": "这些喧闹的海鸟生活在数百只个体组成的群体中！",
+    
+    "birdie.GreenWoodpecker.commonName": "绿啄木鸟",
+    "birdie.GreenWoodpecker.scientificName": "Picus viridis",
+    "birdie.GreenWoodpecker.attribute.1": "绿色背部",
+    "birdie.GreenWoodpecker.attribute.2": "黑色和红色面具",
+    "birdie.GreenWoodpecker.funFact": "它可以将非常长的舌头伸出喙外 10 厘米来捕捉蚂蚁！"
+  }
+  
