@@ -1,0 +1,29 @@
+{
+  "name": "Cream Soda Maker",
+  "Description": "Makes artisanal cream sodas from fruit, vanilla extract, sparkling water, and sugar!",
+  "price": 1,
+  "provideslight": false,
+  "ReserveExtraIndexCount": 6,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 335,
+        "Count": 2
+      },
+      {
+        "Object": 382,
+        "Count": 5
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 8000
+  },
+  "NameLocalization": {
+    "zh":"奶油苏打机"
+  },
+  "DescriptionLocalization": {
+    "zh":"用水果、香草精、气泡水和糖制作手工奶油苏打水!"
+  }
+}
