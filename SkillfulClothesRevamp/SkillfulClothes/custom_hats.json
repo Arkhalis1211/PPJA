@@ -1,0 +1,2142 @@
+{
+  "DinosaurHat": [ 
+    {
+      "IncreaseMaxHealth": {
+      "Amount": 50
+    }
+    },
+    {
+      "IncreaseKnockback": {
+      "Amount": 30
+    }
+    },
+    {
+      "IncreaseDefense": {
+      "Amount": 2
+      }
+    },
+	{
+    "health": {
+      "health": "Low",
+      "Effect": {
+         "IncreaseAttack": {
+      	 "Amount": 2
+    	 }
+       }
+     }
+    },
+	{
+    "health": {
+      "health": "Critical",
+      "Effect": {
+         "IncreaseSpeed": {
+      	 "Amount": 2
+    	 }
+       }
+     }
+   }
+  ],
+  "GoldenMask":[    
+  {
+    "DodgeChance": {
+      "Chance": 30
+    }
+  }
+],
+"RaccoonHat": [
+  "ProfessionalForager",
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Foraging",
+      "Amount": 3
+    }
+  }
+],
+"HairBone": [
+  {
+    "IGBuff": {
+      "buffId": "24"
+    }
+  }
+],
+"Sombrero": [
+  {
+    "IGBuff": {
+      "buffId": "28"
+    }
+  }
+],
+"BluebirdMask": [
+  {
+    "IGBuff": {
+      "buffId": "25"
+    }
+  },
+  {
+    "IncreaseSpeed": {
+      "Amount": 2
+    }
+  }
+],
+  "WearableDwarfHelm": [
+    {
+    "IncreaseDefense": {
+      "Amount": 2
+    }
+  },
+	{
+      "Locational": {
+      "Location": "UndergroundPlaces",
+      "Effect": [
+        {
+          "IncreaseMaxHealth": {
+            "Amount": 20
+          }
+        },
+        {
+          "IncreaseMaxEnergy": {
+            "Amount": 20
+          }
+        }
+      ]
+     }
+    },
+    {
+      "ShopDiscount": {
+        "Shop": "Dwarf",
+        "Discount": 0.20
+      }
+  }
+],
+  "PartyHat_Green": "IncreasePopularity",
+  "PartyHat_Blue": "IncreasePopularity",
+  "PartyHat_Red": "IncreasePopularity",
+  "FishingHat": {
+    "IncreaseSkillLevel": {
+      "Skill": "Fishing",
+      "Amount": 3
+    }
+  },
+  "LeprechuanHat": {
+    "IncreaseSkillLevel": {
+      "Skill": "Luck",
+      "Amount": 2
+    }
+  },
+  "JunimoHat": {
+    "IncreaseSkillLevel": {
+      "Skill": "Luck",
+      "Amount": 5
+    }
+  },
+  "JojaCap": {
+
+      "ShopDiscount": {
+        "Shop": "JojaMarket",
+        "Discount": 0.15
+      }
+  },
+  "JesterHat": [
+    "IncreasePopularity",
+    {
+      "IncreaseMagnetism": {
+        "Amount": 20
+      }
+    },
+    "LewisDisapproves"
+  ],
+  "TruckerHat": [
+    {
+      "CrafterPower": {
+        "Effect": [
+          {
+            "ShopDiscount": {
+              "Shop": "Robin",
+              "Discount": 0.05
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "BridalVeil": [
+    {
+    "Weather": {
+      "Weather": "Wedding",
+      "Effect": [
+        {
+        "AutoRevive": {
+          "Value": null
+        }
+      },
+        {
+          "IncreaseSpeed": {
+            "Amount": 4
+          }
+        },
+        {
+          "IncreaseSkillLevel": {
+            "Skill": "Luck",
+            "Amount": 6
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Locational": {
+      "Location": "UndergroundPlaces",
+      "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": -1
+          }
+        }
+      ]
+    }
+  }
+  ],
+  "WitchHat": [{
+    "IncreaseImmunity": {
+      "Amount": 10
+    }
+  },
+        {
+          "Ring": {
+            "Ring": "YobaRing"
+          }
+        },
+  {
+    "Seasonal": {
+      "Season": "Fall",
+      "Effect": [
+ 	 {
+    	"DodgeChance": {
+   	   "Chance": 25
+  	  }
+ 	 },
+ 	 {
+    	"RangedPower": {
+      	"Effect": [
+     	   {
+       	   "IncreaseAttack": {
+       	       "Amount": 20
+       	   }
+       	   }
+      	]
+    	}
+  	},
+        {
+          "IncreaseMagnetism": {
+            "Amount": 6
+          }
+        },
+        "IncreasePopularity"
+      ]
+    }
+  }
+],
+  "SwashbucklerHat": [{
+    "IncreaseAttack": {
+      "Amount": 10
+    }
+  },
+  {
+  "Locational": {
+    "Location": "IslandPlaces",
+    "Effect": [
+      {
+        "Locational": {
+          "Location": "UndergroundPlaces",
+          "Effect": [
+            {
+              "IncreaseSpeed": {
+                "Amount": 2
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+  ],
+  "ForagersHat": [{
+    "IncreaseSkillLevel": {
+      "Skill": "Foraging",
+      "Amount": 3
+    }
+  },
+  {
+      "MultiplyExperience": {
+          "Skill": "Foraging",
+          "Multiplier": 1.15
+        }
+  }
+],
+  "WarriorHelmet": [
+    {
+    "IncreaseAttackMultiplier": {
+      "Amount": 25
+    }
+  },
+  {
+    "health": {
+      "health": "Half",
+      "Effect": [ {
+         "IncreaseAttack": {
+      	 "Amount": 6
+    		}
+      },
+      {
+        "IncreaseSpeed": {
+      	 "Amount": 1
+    		}
+      	 }
+      ]
+       }
+     },
+     {
+      "health": {
+        "health": "Low",
+        "Effect": [{
+           "IncreaseAttack": {
+           "Amount": 12
+          }
+        },
+        {
+          "IncreaseSpeed": {
+           "Amount": 2
+          }
+           }
+          ]
+         }
+       },
+       {
+        "health": {
+          "health": "Critical",
+          "Effect": [{
+             "IncreaseAttack": {
+             "Amount": 20
+            }
+          },
+          {
+            "IncreaseSpeed": {
+             "Amount": 2
+            }
+             }
+            ]
+           }
+         }
+],
+  "LuckyBow": {
+    "IncreaseSkillLevel": {
+      "Skill": "Luck",
+      "Amount": 1
+    }
+  },
+  "ChickenMask": [ {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Any"
+    }
+  },
+  "LovingRancher",
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Farming",
+      "Amount": 2
+    }
+  },
+  {
+    "Locational": {
+      "Location": "FarmPlaces",
+      "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": 4
+          }
+        }
+      ]
+    }
+  }
+],
+  "SquiresHelmet": {
+    "IncreaseDefense": {
+      "Amount": 3
+    }
+  },
+  "TotemMask": [
+	{
+    "IncreaseDefense": {
+      "Amount": 1
+    }
+  },
+  {
+	"IncreaseAttack": {
+      "Amount": 2
+    }
+  },
+  {
+	"IncreaseSpeed": {
+      "Amount": 1
+    }
+  },
+  {
+      "IncreaseSkillLevel": {
+        "Skill": "Foraging",
+        "Amount": 2
+      }
+
+  }
+ ],
+ "BlobfishMask": [
+	{
+    "IncreaseDefense": {
+      "Amount": -10
+    }
+  },
+  {
+	"IncreaseAttack": {
+      "Amount": -10
+    }
+  },
+  {
+	"IncreaseSpeed": {
+      "Amount": -10
+    }
+  },
+  {
+    "IncreaseMaxhealth": {
+        "Amount": -99
+      }
+    }
+ ],
+ "InfinityCrown": [
+	{
+	"IncreaseAttack": {
+      "Amount": 15
+    }
+  },
+  {
+      "IncreaseSkillLevel": {
+        "Skill": "Combat",
+        "Amount": 10
+      }
+
+  }
+ ],
+  "TigerHat": [
+	{
+    "IncreaseSkillLevel": {
+      "Skill": "Foraging",
+      "Amount": 1
+    }
+  },
+  {
+    "IGBuff": {
+      "buffId": "13"
+    }
+  },
+  {
+	"IncreaseAttack": {
+      "Amount": 2
+    }
+  },
+  {
+	"IncreaseSpeed": {
+      "Amount": 6
+    }
+  },
+  {
+    "Locational": {
+      "Location": "IslandPlaces",
+      "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": 1
+          }
+        },
+        {
+          "IncreaseAttackMultiplier": {
+            "Amount": 30
+          }
+        }
+      ]
+    }
+  }
+  ],
+ "PolkaBow": [
+	{
+    "IncreaseSkillLevel": {
+      "Skill": "Luck",
+      "Amount": 2
+    }
+  },
+  {
+    "IncreaseMaxEnergy": {
+        "Amount": 20
+      }
+    },
+  {
+    "Locational": {
+      "Location": "UndergroundPlaces",
+      "Effect": [
+        {
+          "IncreaseSkillLevel": {
+            "Skill": "Luck",
+            "Amount": -1
+          }
+        }
+      ]
+    }
+  },
+	"IncreasePopularity"
+  ],
+"Sunglasses": [
+    {
+    "time": {
+      "timeStart": "600",
+      "timeEnd": "1500",
+      "Effect": {
+         "IncreaseSpeed": {
+      	 "Amount": 2
+    	 }
+       }
+     }
+    },
+    {
+    "time": {
+      "timeStart": "1500",
+      "timeEnd": "2600",
+      "Effect": {
+         "IncreaseSpeed": {
+      	 "Amount": -1
+    	 }
+       }
+     }
+    }
+	],
+"ChefHat": [
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Luck",
+        "Amount": 3
+      }
+    },
+    {
+      "IncreaseSpeed": {
+          "Amount": 2
+        }
+      },
+      {
+        "IncreaseDefense": {
+            "Amount": -5
+          }
+        },
+    "IncreasePopularity"
+    ],
+"LivingHat": [
+  "AutoWater",
+    {
+      "IncreaseSpeed": {
+        "Amount": 3
+      }
+    },
+    {
+      "Baitproduce": {
+        "Steps": 3
+      }
+    },
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Foraging",
+	"Amount": 2
+      }
+    },
+    {
+      "Spikey": {
+        "ExtraDamage": 10
+      }
+    },
+    {
+      "MultiplyExperience": {
+          "Skill": "Foraging",
+          "Multiplier": 1.2
+        }
+      },
+      {
+        "Locational": {
+          "Location": "UndergroundPlaces",
+          "Effect": [
+            {
+              "IncreaseSpeed": {
+                "Amount": -4
+              }
+            }
+          ]
+        }
+      }
+      
+  ],
+  "GilsHat": [
+    "ParryBoost",
+    {
+      "IncreaseAttack": {
+        "Amount": 3
+      }
+    },
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Combat",
+	      "Amount": 2
+      }
+    },
+    {
+      "MultiplyExperience": {
+          "Skill": "Combat",
+          "Multiplier": 1.3
+        }
+      },
+      {
+        "MeleePower": {
+          "WeaponID": 0,
+          "Effect": [
+            {
+              "IncreaseAttack": {
+                  "Amount": 3
+              }
+            },
+            {
+              "IncreaseSkillLevel": {
+                "Skill": "Combat",
+                "Amount": 2
+              }
+            }
+          ]
+        }
+      }      
+  ],
+  "GarbageHat":[
+    "LewisDisapproves",
+    {
+      "MultiplyExperience": {
+          "Skill": "Foraging",
+          "Multiplier": 1.001
+        }
+      }      
+  ],
+  "GoldenHelmet": [
+      {
+        "Locational": {
+          "Location": "IslandPlaces",
+          "Effect": [
+            {
+              "IncreaseSpeed": {
+                "Amount": 2
+              }
+            },
+            {
+              "IncreaseSkillLevel": {
+                "Skill": "Luck",
+          "Amount": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Locational": {
+          "Location": "UndergroundPlaces",
+          "Effect": [
+            {
+              "IncreaseSpeed": {
+                "Amount": -1
+              }
+            },
+            {
+              "IncreaseSkillLevel": {
+                "Skill": "Luck",
+          "Amount": -1
+              }
+            }
+          ]
+        }
+      }
+      
+  ],
+  "GovernorsHat": [
+    {
+      "IncreaseMaxHealth": {
+        "Amount": 100
+      }
+    },
+    {
+      "IncreaseSpeed": {
+        "Amount": -2
+      }
+    },
+    "IncreasePopularity",
+    {
+      "HealthRegen": {
+        "SecondsToStandStill": 1,
+        "RegenIntervalSeconds": 1,
+        "RegenAmount": 2,
+        "GlowColor": {
+          "B": 0,
+          "G": 0,
+          "R": 155,
+          "A": 155
+        }
+    }
+    }
+  ],
+  "CatEars": [
+    {
+      "IncreaseSpeed": {
+        "Amount": 2
+      }
+    },
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Fishing",
+	      "Amount": 2
+      }
+    },
+    {
+      "IncreaseCritChance": {
+        "Amount": 30
+      }
+    },
+    {
+      "IncreaseCritDamage": {
+        "Amount": 30
+      }
+    },
+    {
+      "DodgeChance": {
+        "Chance": 25
+      }
+    },
+    "ParryBoost",
+    {
+    "IncreaseDefense": {
+      "Amount": -20
+    }
+  },
+  {
+    "ItemHeldEffect": {
+      "ItemId": "Meowmere",
+      "Effect": [
+      {
+        "IncreaseCritChance": {
+          "Amount": 10000
+        }
+      },
+      {
+        "IncreaseDefense": {
+          "Amount": -50
+        }
+      },
+      {
+        "IncreaseSpeed": {
+          "Amount": 10
+        }
+      }
+      ]
+       }
+     },
+  "IncreaseFishingBarByCaughtFish"
+  ],
+  "MouseEars": [
+    {
+      "IncreaseSpeed": {
+        "Amount": 2
+      }
+    },
+    {
+      "IncreaseAttack": {
+        "Amount": 1
+      }
+    },
+    {
+    "IncreaseDefense": {
+      "Amount": -5
+    }
+  },
+    {
+  "MultiplyExperience": {
+      "Skill": "Foraging",
+      "Multiplier": 1.15
+    }
+  }
+  ],
+  "ArchersCap": [
+    {
+      "IncreaseSpeed": {
+        "Amount": 2
+      }
+    },
+    {
+      "IncreaseWeaponSpeed": {
+        "Amount": 100
+      }
+    },
+    {
+      "IncreaseAttackMultiplier": {
+        "Amount": 30
+      }
+    },
+    {
+    "IncreaseDefense": {
+      "Amount": -2
+    }
+    },
+    {
+      "health": {
+        "health": "Half",
+        "Effect": {
+           "IncreaseDefense": {
+           "Amount": -8
+          }
+           }
+         }
+       },
+  {
+    "RangedPower": {
+      "Effect": [
+        {
+          "IncreaseAttack": {
+              "Amount": 45
+          }
+          }
+      ]
+    }
+  }
+  ],
+"HuntersCap": [
+    {
+      "IncreaseCritChance": {
+        "Amount": 30
+      }
+    },
+    {
+    "IncreaseDefense": {
+      "Amount": 1
+    }
+    },
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Combat",
+	      "Amount": 2
+      }
+    },
+    {
+  "MultiplyExperience": {
+      "Skill": "Combat",
+      "Multiplier": 1.15
+    }
+  },
+  {
+    "health": {
+      "health": "Healthy",
+      "Effect": {
+         "IncreaseSpeed": {
+      	 "Amount": 2
+    		}
+      	 }
+       }
+     }
+  ],
+  "Tiara": [
+    "IncreasePopularity",
+  {
+    "Weather": {
+      "Weather": "Stormy",
+      "Effect": [
+         "IncreasePopularity"
+      ]
+       }
+     }
+  ],
+  "StarHelmet": [
+    {
+      "ItemHeldEffect": {
+        "ItemId": "Return Scepter",
+        "Effect": [
+        {
+          "IncreaseDefense": {
+            "Amount": 30
+          }
+        },
+        {
+          "IncreaseSpeed": {
+            "Amount": -3
+          }
+        },
+        {
+          "Glow": {
+            "Radius": 3,
+            "Color": {
+              "B": 0,
+              "G": 0,
+              "R": 0,
+              "A": 255
+            }
+          }
+        }
+        ]
+         }
+       }
+  ],
+  "BlueBonnet": [
+    {
+      "ItemHeldEffect": {
+        "ItemId": "Hoe",
+        "Effect": [
+        {
+          "IncreaseDefense": {
+            "Amount": -10
+          }
+        },
+        {
+          "IncreaseSpeed": {
+            "Amount": 1
+          }
+        },
+        {
+          "IncreaseMagnetism": {
+            "Amount": 10
+          }
+        },
+        {
+          "IncreaseSkillLevel": {
+            "Skill": "Luck",
+            "Amount": 4
+          }
+        }
+        ]
+         }
+       }
+  ],
+  "ArcaneHat": [
+    {
+      "NPCEffect": {
+        "NPC": "Caroline",
+        "Amount": 50,
+	"Type": 0
+      }
+    },
+          {
+            "Ring": {
+              "Ring": "BurglarsRing"
+            }
+          },
+    {
+      "Seasonal": {
+        "Season": "Fall",
+        "Effect": [
+          {
+            "IncreaseMagnetism": {
+              "Amount": 6
+            }
+          },
+    	{
+      	"IncreaseSpeed": {
+          "Amount": 1
+      		}
+    	},
+          {
+            "Weather": {
+              "Weather": "Stormy",
+              "Effect": [
+                {
+                "AutoRevive": {
+                  "Value": null
+                }
+              },
+              {
+                "IncreaseAttack": {
+                  "Amount": 8
+                }
+              }
+              ]
+               }
+             }
+        ]
+      }
+    },
+  {
+    "Weather": {
+      "Weather": "Stormy",
+      "Effect": [
+        {
+          "IncreaseImmunity": {
+            "Amount": 10
+          }
+        },
+        {
+          "IncreaseSpeed": {
+            "Amount": 3
+          }
+        }
+      ]
+       }
+     }
+  ],
+  "FrogHat": [
+  {
+    "Weather": {
+      "Weather": "Wet",
+      "Effect": [
+         "IncreasePopularity",
+         "IncreasePopularity",
+         {
+          "IncreaseSpeed": {
+              "Amount": 4
+            }
+          }
+      ]
+       }
+     }
+  ],
+  "EmilysMagicHat": [
+    {
+      "Weather": {
+        "Weather": "GreenRain",
+        "Effect": [
+           "IncreasePopularity",
+           "IncreasePopularity",
+           "IncreasePopularity",
+           {
+            "IncreaseSpeed": {
+                "Amount": 5
+              }
+            },
+            {
+              "IncreaseSkillLevel": {
+                "Skill": "Luck",
+                "Amount": 5
+              }
+            },
+            {
+              "IncreaseSkillLevel": {
+                "Skill": "Foraging",
+                "Amount": 5
+              }
+            }
+          ]
+         }
+       }
+    ],
+  "CopperPan": [
+    {
+    "IncreaseSpeed": {
+        "Amount": 1
+      }
+    }
+  ],
+  "SteelPanHat": [
+    {
+    "IncreaseSpeed": {
+        "Amount": 1
+      }
+    }
+  ],
+  "GoldPanHat": [
+    {
+    "IncreaseSpeed": {
+        "Amount": 1
+      }
+    },
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Luck",
+	"Amount": 1
+      }
+    }
+  ],
+  "IridiumPanHat": [
+    {
+    "IncreaseSpeed": {
+        "Amount": 1
+      }
+    },
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Luck",
+	"Amount": 2
+      }
+    }
+  ],
+"TricornHat": [
+    {
+      "IncreaseAttack": {
+        "Amount": 2
+      }
+    },
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Fishing",
+	"Amount": 2
+      }
+    },
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Combat",
+	"Amount": 2
+      }
+    },
+    {
+  "MultiplyExperience": {
+      "Skill": "Combat",
+      "Multiplier": 1.10
+    }
+  },
+  {
+    "MultiplyExperience": {
+    "Skill": "Fishing",
+    "Multiplier": 1.10
+  }
+}
+  ],
+  "SquidHat": [
+    "IncreaseFishingBarByCaughtFish",
+    "LewisDisapproves",
+  {
+    "Locational": {
+      "Location": "WaterPlaces",
+      "Effect": [
+        {
+          "IncreaseSkillLevel": {
+            "Skill": "Fishing",
+            "Amount": 2
+          }
+        },
+        {
+          "MultiplyExperience": {
+          "Skill": "Fishing",
+          "Multiplier": 1.20
+        }
+      }
+      ]
+    }
+  }
+  ],
+  "BucketHat": [
+    "IncreaseFishingBarByCaughtFish",
+  {
+    "Seasonal": {
+      "Season": "Summer",
+      "Effect": [
+        {
+          "IncreaseSkillLevel": {
+            "Skill": "Fishing",
+            "Amount": 2
+          }
+        },
+        {
+          "MultiplyExperience": {
+          "Skill": "Fishing",
+          "Multiplier": 1.2
+        }
+      }
+      ]
+    }
+  }
+  ],
+"GoblinMask": [
+    {
+      "IncreaseSpeed": {
+        "Amount": 3
+      }
+    },
+    {
+      "IncreaseAttack": {
+        "Amount": 1
+      }
+    },
+    {
+    "IncreaseDefense": {
+      "Amount": -20
+    }
+    },
+    {
+    "Ring": {
+      "Ring": "BurglarsRing"
+    }
+  },
+  {
+    "Locational": {
+      "Location": "UndergroundPlaces",
+      "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": 2
+          }
+        }
+      ]
+    }
+  }
+  ],
+  "PageboyCap": [
+    {
+      "IncreaseAttack": {
+        "Amount": 1
+      }
+    },
+    {
+    "IncreaseDefense": {
+      "Amount": 1
+    }
+    },
+    {
+      "IncreaseSpeed": {
+        "Amount": 1
+      }
+      },
+      {
+        "IncreaseSkillLevel": {
+          "Skill": "Fishing",
+          "Amount": 1
+        }
+      },
+      {
+        "IncreaseSkillLevel": {
+          "Skill": "Combat",
+          "Amount": 1
+        }
+      },
+      {
+        "IncreaseSkillLevel": {
+          "Skill": "Foraging",
+          "Amount": 1
+        }
+      },
+      {
+        "IncreaseSkillLevel": {
+          "Skill": "Mining",
+          "Amount": 1
+        }
+      },
+      {
+        "IncreaseSkillLevel": {
+          "Skill": "Farming",
+          "Amount": 1
+        }
+      },
+    {
+  "MultiplyExperience": {
+      "Skill": "Combat",
+      "Multiplier": 1.1
+    }
+  },
+  {
+    "MultiplyExperience": {
+        "Skill": "Fishing",
+        "Multiplier": 1.1
+      }
+    },
+    {
+      "MultiplyExperience": {
+          "Skill": "Foraging",
+          "Multiplier": 1.1
+        }
+      },
+      {
+        "MultiplyExperience": {
+            "Skill": "Farming",
+            "Multiplier": 1.1
+          }
+        },
+        {
+          "MultiplyExperience": {
+              "Skill": "Mining",
+              "Multiplier": 1.1
+            }
+          }
+  ],
+"MummyMask": [
+    {
+      "AutoRevive": {
+         "Value": null
+        }
+    },
+    {
+      "IncreaseMaxhealth": {
+        "Amount": 60
+      }
+    },
+    {
+      "IncreaseSpeed": {
+        "Amount": -1
+      }
+    },
+  {
+    "Glow": {
+      "Radius": 2,
+      "Color": {
+        "B": 0,
+        "G": 255,
+        "R": 100,
+        "A": 255
+      }
+    }
+  }
+],
+"KaileyStardew.SeasonalHatsCP_TrapperHat": [
+    {
+      "AutoRevive": {
+         "Value": null
+        }
+    }
+],
+"SkeletonMask": [
+    {
+      "IncreaseAttack": {
+        "Amount": 5
+      }
+    },
+	{
+    "Glow": {
+      "Radius": 2,
+      "Color": {
+        "B": 255,
+        "G": 255,
+        "R": 0,
+        "A": 255
+      }
+    }
+  },
+    {
+    "IncreaseDefense": {
+      "Amount": -2
+    }
+    },
+    {
+      "IncreaseCritDamage": {
+        "Amount": 20
+      }
+      },
+    {
+  "MultiplyExperience": {
+      "Skill": "Combat",
+      "Multiplier": 1.2
+    }
+  },
+  "LewisDisapproves"
+  ],
+"KnightsHelmet": [
+    {
+      "IncreaseAttack": {
+        "Amount": 2
+      }
+    },
+    {
+    "IncreaseDefense": {
+      "Amount": 2
+    }
+  },
+  {
+    "Locational": {
+      "Location": "UndergroundPlaces",
+      "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": 1
+          }
+        }
+      ]
+    }
+  }
+  ],
+"Earmuffs": [
+    {
+      "IncreaseImmunity": {
+        "Amount": 5
+      }
+    },
+    {
+      "Ring": {
+        "Ring": "SturdyRing"
+      }
+    },
+    {
+      "Seasonal": {
+        "Season": "Winter",
+        "Effect": [
+          {
+            "IncreaseSpeed": {
+              "Amount": 2
+            }
+          },
+          {
+            "IncreaseImmunity": {
+              "Amount": 5
+            }
+          },
+          {
+            "IncreaseMaxHealth": {
+              "Amount": 100
+            }
+          }
+        ]
+      }
+    }
+  ],
+"DarkBallcap": [
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Combat",
+      "Amount": 7
+    }
+  },
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Mining",
+      "Amount": 7
+    }
+  },
+  "Mercenery",
+  {
+    "Ring": {
+      "Ring": "BurglarsRing"
+    }
+  }
+],
+"GnomesCap": [
+  {
+      "ShopDiscount": {
+        "Shop": "Clint",
+        "Discount": 0.50
+    }
+  },
+  {
+    "IncreaseDefense": {
+      "Amount": 4
+    }
+  }
+  ],
+"MushroomCap": [
+    {
+      "IncreaseSpeed": {
+        "Amount": -6
+      }
+    },
+    {
+    "IncreaseDefense": {
+      "Amount": 20
+    }
+  },
+    {
+      "Spikey": {
+        "ExtraDamage": 15
+      }
+    },
+    {
+      "HealthRegen": {
+        "SecondsToStandStill": 0,
+        "RegenIntervalSeconds": 1,
+        "RegenAmount": 3,
+        "GlowColor": {
+          "B": 0,
+          "G": 0,
+          "R": 255,
+          "A": 255
+        }
+    }
+    },
+    {
+      "IncreaseMaxhealth": {
+        "Amount": 100
+      }
+    }
+  ],
+"EyePatch": [
+    {
+    "Seasonal": {
+      "Season": "Fall",
+      "Effect": [
+        {
+          "IncreaseMaxEnergy": {
+            "Amount": 50
+          }
+        },
+        {
+          "IncreaseMaxHealth": {
+            "Amount": 50
+          }
+        },
+        {
+          "IncreaseAttack": {
+            "Amount": 5
+          }
+        },
+        {
+          "Napalm": {
+            "ExtraDamage": 15
+          }
+        },
+        {
+        "StaminaRegen": {
+          "SecondsToStandStill": 1,
+          "RegenIntervalSeconds": 1,
+          "RegenAmount": 2,
+          "GlowColor": {
+            "B": 0,
+            "G": 128,
+            "R": 0,
+            "A": 150
+          }
+        }
+        },
+        "IncreasePopularity"
+      ]
+    }
+  },
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Fishing",
+"Amount": 4
+    }
+  },
+{
+  "ShopDiscount": {
+    "Shop": "Willy",
+    "Discount": 0.15
+}
+},
+    "IncreaseFishingTreasureChestChance",
+    "IncreaseFishingTreasureChestChance",
+    "KeepTreasureChestWhenFishEscapes"
+  ],
+  "PumpkinMask": [
+  	{
+ 	   "Ring": {
+	      "Ring": "SlimeCharmerRing"
+ 	   }
+ 	 },
+    {
+      "NPCEffect": {
+        "NPC": "Abigail",
+        "Amount": 50,
+	"Type": 0
+      }
+    },
+	{
+ 	   "Glow": {
+ 	     "Radius": 2,
+  	    "Color": {
+ 	       "B": 150,
+  	      "G": 100,
+  	      "R": 126,
+   	     "A": 230
+   	   }
+  	  }
+  	},
+  {
+    "Seasonal": {
+      "Season": "Fall",
+      "Effect": [
+        {
+          "IncreaseMaxHealth": {
+            "Amount": 50
+          }
+        },
+        {
+          "IncreaseAttack": {
+            "Amount": 3
+          }
+        },
+        {
+          "IncreaseDefense": {
+            "Amount": 3
+          }
+        }
+      ]
+    }
+  }
+  ],
+"TopHat": [
+  "IncreasePopularity",
+  {
+    "IncreaseKnockback": {
+      "Amount": 100
+    }
+  },
+  {
+    "Ring": {
+      "Ring": "SturdyRing"
+    }
+  }
+],
+"LaurelWreathCrown": [
+  {
+    "Spikey": {
+      "ExtraDamage": 30
+    }
+  },
+  {
+    "Ring": {
+      "Ring": "YobaRing"
+    }
+  },
+  "AutoRevive",
+  "AutoWater"
+],
+"HardHat":[ {
+    "IncreaseDefense": {
+      "Amount": "2"
+    }
+  },
+  {
+    "Ring": {
+      "Ring": "ProtectiveRing"
+    }
+  },
+  {
+    "ConstructDiscount": {
+      "Discount": 0.05
+    }
+  },
+  {
+    "ShopDiscount": {
+      "Shop": "Robin",
+      "Discount": 0.10
+    }
+  }
+],
+  "CowgalHat": [
+    {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Any"
+    }
+  },
+  "LovingRancher"
+],
+  "RedFez": {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Pig"
+    }
+  },
+  "BlueCowboyHat": [
+    {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Any"
+    }
+  },
+  "LovingRancher"
+],
+  "DarkCowboyHat": [
+    {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Any"
+    }
+  },
+  "LovingRancher"
+],
+  "RedCowboyHat": [
+    {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Any"
+    }
+  },
+  "LovingRancher"
+],
+  "DeluxeCowboyHat": [
+    {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Any"
+    }
+  },
+  "LovingRancher"
+],
+  "MagicCowboyHat": [
+    "IncreasePopularity",
+    "LovingRancher",
+    {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Any"
+    }
+  }
+],
+  "CowboyHat": [
+    "IncreasePopularity",
+    "LovingRancher",
+    {
+    "IncreaseSpeed": {
+      "Amount": 1
+    }
+  },
+    {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Any"
+    }
+  },
+  {
+    "Locational": {
+      "Location": "FarmPlaces",
+      "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": 2
+          }
+        }
+      ]
+    }
+  }
+],
+"CowpokeHat": [
+  "IncreasePopularity",
+  "LovingRancher",
+  {
+  "IncreaseSpeed": {
+    "Amount": 1
+  }
+},
+  {
+  "PetAnimalOnTouch": {
+    "AnimalType": "Any"
+  }
+},
+{
+  "Locational": {
+    "Location": "FarmPlaces",
+    "Effect": [
+      {
+        "IncreaseSkillLevel": {
+          "Skill": "Farming",
+          "Amount": 5
+        }
+      }
+    ]
+  }
+}
+],
+  "PirateHat":[
+       "IncreaseFishingTreasureChestChance",
+    {
+      "Locational": {
+        "Location": "WaterPlaces",
+        "Effect": [
+          {
+            "IncreaseSkillLevel": {
+              "Skill": "Fishing",
+              "Amount": 2
+            }
+          },
+          {
+            "IncreaseSpeed": {
+              "Amount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "DeluxePirateHat":[
+    "IncreaseFishingTreasureChestChance",
+ {
+   "Locational": {
+     "Location": "IslandPlaces",
+     "Effect": [
+      "KeepTreasureChestWhenFishEscapes",
+       {
+         "IncreaseSkillLevel": {
+           "Skill": "Fishing",
+           "Amount": 3
+         }
+       },
+       {
+         "IncreaseSpeed": {
+           "Amount": 1
+         }
+       }
+     ]
+   }
+ }
+],
+  "SportsCap": [
+    {
+      "IncreaseSpeed": {
+        "Amount": 2
+      }
+    },
+    {
+      "StaminaRegen": {
+        "SecondsToStandStill": 0,
+        "RegenIntervalSeconds": 1,
+        "RegenAmount": 1,
+        "GlowColor": {
+          "B": 155,
+          "G": 155,
+          "R": 0,
+          "A": 150
+        }
+      }
+    }
+  ],
+  "SpaceHelmet": [
+    "BeeKeeper",
+    {
+      "Locational": {
+        "Location": "DangerousMines",
+        "Effect": [
+          {
+            "IncreaseSkillLevel": {
+              "Skill": "Mining",
+              "Amount": 5
+            }
+          },
+          {
+            "IncreaseDefense": {
+              "Amount": 5
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "RadioactiveGoggles": [
+    {
+      "Locational": {
+        "Location": "DangerousMines",
+        "Effect": [
+          {
+            "IncreaseSkillLevel": {
+              "Skill": "Mining",
+              "Amount": 5
+            }
+          },
+          {
+            "IncreaseDefense": {
+              "Amount": 3
+            }
+          },
+          {
+            "IncreaseSpeed": {
+              "Amount": 2
+            }
+          },
+          {
+            "IncreaseAttack": {
+              "Amount": 3
+            }
+          },
+          {
+            "IncreaseSkillLevel": {
+              "Skill": "Luck",
+              "Amount": 2
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "SantaHat": [
+    {
+      "IncreaseMaxhealth": {
+        "Amount": 150
+      }
+    },
+    {
+      "Seasonal": {
+        "Season": "Winter",
+        "Effect": [
+          {
+            "IncreaseSpeed": {
+              "Amount": 1
+            }
+          },
+          {
+            "DodgeChance": {
+              "Chance": 40
+            }
+          },
+            "IncreasePopularity"
+        ]
+      }
+    }
+  ],
+  "SailorsCap": [
+    {
+      "ShopDiscount": {
+        "Shop": "Willy",
+        "Discount": 0.10
+      }
+    },
+    {
+      "Locational": {
+        "Location": "WaterPlaces",
+        "Effect": [
+          {
+            "IncreaseSkillLevel": {
+              "Skill": "Fishing",
+              "Amount": 2
+            }
+          },
+          {
+            "IncreaseSpeed": {
+              "Amount": 1
+            }
+          },
+          {
+            "StaminaRegen": {
+              "SecondsToStandStill": 1,
+              "RegenIntervalSeconds": 1,
+              "RegenAmount": 1,
+              "GlowColor": {
+                "B": 128,
+                "G": 0,
+                "R": 0,
+                "A": 150
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Seasonal": {
+        "Season": "Winter",
+        "Effect": [
+          {
+            "IncreaseSpeed": {
+              "Amount": 1
+            }
+          },
+          {
+            "IncreaseSkillLevel": {
+              "Skill": "Fishing",
+              "Amount": 2
+            }
+          }
+        ]
+      }
+    }
+  ],
+    "StrawHat":[
+      "AutoWater",
+      {
+        "Locational": {
+          "Location": "FarmPlaces",
+          "Effect": [
+            {
+              "IncreaseSpeed": {
+                "Amount": 1
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "Beanie":{
+      "Seasonal": {
+        "Season": "Winter",
+        "Effect": [
+          {
+            "IncreaseMaxEnergy": {
+              "Amount": 25
+            }
+          },
+          {
+            "IncreaseMaxHealth": {
+              "Amount": 25
+            }
+          }
+        ]
+      }
+    },
+    "FloppyBeanie"
+    :
+    {
+      "Seasonal": {
+        "Season": "Winter",
+        "Effect": [
+          {
+            "IncreaseMaxEnergy": {
+              "Amount": 50
+            }
+          },
+          {
+            "IncreaseMaxHealth": {
+              "Amount": 50
+            }
+          },
+          {
+            "IncreaseSpeed": {
+              "Amount": 1
+            }
+          }
+        ]
+      }
+    },
+    "GreenTurban":[
+          {
+            "Ring": {
+              "Ring": "ProtectiveRing"
+            }
+          },
+    {
+      "Locational": {
+        "Location": "DesertPlaces",
+        "Effect": [
+          {
+            "IncreaseMaxEnergy": {
+              "Amount": 150
+            }
+          },
+          {
+            "StaminaRegen": {
+              "SecondsToStandStill": 0,
+              "RegenIntervalSeconds": 1,
+              "RegenAmount": 2,
+              "GlowColor": {
+                "B": 0,
+                "G": 128,
+                "R": 0,
+                "A": 150
+              }
+            }
+          }
+        ]
+      }
+    }
+	],
+    "WhiteTurban": [
+          {
+            "Ring": {
+              "Ring": "ProtectiveRing"
+            }
+          },
+    {
+      "Locational": {
+        "Location": "DesertPlaces",
+        "Effect": [
+          {
+            "IncreaseMaxEnergy": {
+              "Amount": 50
+            }
+          },
+          {
+            "IncreaseSpeed": {
+              "Amount": 2
+            }
+          }
+        ]
+      }
+    }
+	],
+    "ElegantTurban"
+    :
+    [
+      {
+        "AutoRevive": {
+          "Value": null
+        }
+      },
+      {
+        "IncreaseSpeed": {
+          "Amount": 5
+        }
+      },
+      {
+        "Ring": {
+          "Ring": "ProtectiveRing"
+        }
+      },
+      {
+        "StaminaRegen": {
+          "SecondsToStandStill": 0,
+          "RegenIntervalSeconds": 1,
+          "RegenAmount": 3,
+          "GlowColor": {
+            "B": 0,
+            "G": 128,
+            "R": 0,
+            "A": 150
+          }
+        }
+      },
+      {
+        "Locational": {
+          "Location": "DesertPlaces",
+          "Effect": [
+            {
+              "IncreaseMaxHealth": {
+                "Amount": 200
+              }
+            },
+            {
+              "IncreaseMaxEnergy": {
+                "Amount": 200
+              }
+            },
+            {
+              "HealthRegen": {
+                "SecondsToStandStill": 0,
+                "RegenIntervalSeconds": 1,
+                "RegenAmount": 25,
+                "GlowColor": {
+                  "B": 0,
+                  "G": 128,
+                  "R": 0,
+                  "A": 150
+                }
+              }
+            }
+          ]
+        }
+
+      }
+    ],
+    "MagicTurban"
+    :
+	[
+          {
+            "Ring": {
+              "Ring": "ProtectiveRing"
+            }
+          },
+    {
+      "Locational": {
+        "Location": "DesertPlaces",
+        "Effect": [
+          {
+            "IncreaseMaxEnergy": {
+              "Amount": 100
+            }
+          },
+          {
+            "StaminaRegen": {
+              "SecondsToStandStill": 0,
+              "RegenIntervalSeconds": 1,
+              "RegenAmount": 1,
+              "GlowColor": {
+                "B": 0,
+                "G": 128,
+                "R": 0,
+                "A": 150
+              }
+            }
+          },
+          {
+            "HealthRegen": {
+              "SecondsToStandStill": 0,
+              "RegenIntervalSeconds": 2,
+              "RegenAmount": 1,
+              "GlowColor": {
+                "B": 0,
+                "G": 128,
+                "R": 0,
+                "A": 150
+              }
+            },
+            "IncreaseSpeed": {
+              "Amount": 1
+            }
+          }
+        ]
+      }
+    }
+	]
+}

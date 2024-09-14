@@ -1,0 +1,12 @@
+{
+  "EnableShirtEffects": true,
+  "EnablePantsEffects": true,
+  "EnableHatEffects": true,
+  "AllItemsCanBeTailored": false,
+  "LoadCustomEffectDefinitions": true,
+  "verboseLogging": false,
+  "EnableClothingForge": true,
+  "LessImpactfulClothes": false,
+  "DisableWhenActiveAlerts": false,
+  "DisableEffectSFX": false
+}

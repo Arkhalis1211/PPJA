@@ -1,0 +1,1546 @@
+{
+  "MayoralSuspenders": [
+	"IncreasePopularity",
+    {
+      "NPCEffect": {
+        "NPC": "Lewis",
+        "Amount": 50,
+	"Type": 1
+      }
+    }
+],
+  "SuitTop": [
+    {
+    "Weather": {
+      "Weather": "Wedding",
+      "Effect": [
+        "IncreasePopularity",
+        {
+          "IncreaseSpeed": {
+            "Amount": 4
+          }
+        },
+        {
+          "IncreaseSkillLevel": {
+            "Skill": "Luck",
+            "Amount": 6
+          }
+        }
+      ]
+    }
+  }
+],
+"BlackLeatherJacket": [
+  {
+    "IGBuff": {
+      "buffId": "17"
+    }
+  },
+  {
+    "IncreaseAttack": {
+      "Amount": 7
+    }
+  }
+],
+"DarkStripedShirt": [
+  {
+    "IGBuff": {
+      "buffId": "26"
+    }
+  },
+  {
+    "IncreaseAttack": {
+      "Amount": 2
+    }
+  },
+  {
+    "IncreaseSpeed": {
+      "Amount": 1
+    }
+  }
+],
+"RelicShirt": [
+  {
+    "IGBuff": {
+      "buffId": "18"
+    }
+  },
+  {
+    "IncreaseAttack": {
+      "Amount": 14
+    }
+  }
+],
+"ShirtAndBelt": [
+  {
+    "IGBuff": {
+      "buffId": "23"
+    }
+  },
+  {
+    "IncreaseSpeed": {
+      "Amount": -3
+    }
+  }
+],
+"SkeletonShirt":[
+  "Mercenery"
+],
+"FriedEggShirt": [
+    {
+    "time": {
+      "timeStart": "600",
+      "timeEnd": "1100",
+      "Effect": [
+	{
+         "IncreaseSpeed": {
+      	 "Amount": 1
+    	 }
+       },
+	{
+         "IncreaseMaxEnergy": {
+      	 "Amount": 40
+    	 }
+       },
+	{
+         "IncreaseAttack": {
+      	 "Amount": 5
+    	 }
+       }
+	]
+     }
+    }
+],
+"SunsetShirt": [
+    {
+    "time": {
+      "timeStart": "1600",
+      "timeEnd": "2000",
+      "Effect": [
+	{
+         "IncreaseSpeed": {
+      	 "Amount": 1
+    	 }
+       },
+	{
+         "IncreaseDefense": {
+      	 "Amount": 7
+    	 }
+       }
+	]
+     }
+    }
+],
+"RainCoat": [
+  {
+    "Weather": {
+      "Weather": "Wet",
+      "Effect": [
+         {
+          "IncreaseDefense": {
+              "Amount": 10
+            }
+          },
+          {
+            "IncreaseImmunity": {
+                "Amount": 10
+              }
+            }
+      ]
+       }
+     }
+  ],
+  "TrashCanShirt": [
+    "Recycler",
+    {
+      "IncreaseDefense": {
+        "Amount": 4
+      }
+    }
+  ],
+  "ButtonDownShirt": [
+    {
+      "IncreaseDefense": {
+        "Amount": 1
+      }
+    },
+    {
+      "IncreaseAttack": {
+        "Amount": 2
+      }
+    },
+    {
+      "IncreaseSpeed": {
+        "Amount": 1
+      }
+    },
+    {
+      "IncreaseMaxEnergy": {
+        "Amount": 25
+      }
+    }
+  ],
+  "ClassicOveralls": [
+    "BeeKeeper"
+  ],
+  "SpringShirt": [
+    "BeeKeeper",
+    {
+      "IncreaseSpeed": {
+        "Amount": 1
+      }
+    },
+    {
+    "Seasonal": {
+      "Season": "Spring",
+      "Effect": [
+    	{
+   	   "IncreaseSpeed": {
+        	"Amount": 1
+   	   }
+  	  }
+      ]
+    }
+   },
+    {
+      "Weather": {
+        "Weather": "Sunny",
+        "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": 1
+          }
+        }
+        ]
+         }
+       }
+  ],
+  "NavyTuxedo": [
+    "IncreasePopularity",
+    {
+      "IncreaseAttackMultiplier": {
+        "Amount": 50
+      }
+    },
+    {
+      "IncreaseCritChance": {
+        "Amount": 50
+      }
+    },
+    {
+      "IncreaseWeaponSpeed": {
+        "Amount": 100
+      }
+    },
+    "ParryBoost",
+    "Mercenery",
+    {
+      "Weather": {
+        "Weather": "Sunny",
+        "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": 1
+          }
+        }
+        ]
+         }
+       }
+  ],
+  "BomberJacket": [    
+    {
+      "Napalm": {
+        "ExtraDamage": 15
+      }
+    },
+    {
+      "RangedPower": {
+        "Effect": [
+          {
+            "IncreaseAttack": {
+                "Amount": 20
+            }
+            }
+        ]
+      }
+    }
+  ],
+  "LettermanJacket": [    
+    {
+      "Napalm": {
+        "ExtraDamage": 10
+      }
+    },
+    {
+     "IncreaseMaxEnergy": {
+       "Amount": 30
+     }
+    }
+  ],
+  "WumbusShirt": [
+    {
+      "Weather": {
+        "Weather": "GreenRain",
+        "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": 6
+          }
+        },
+        {
+          "IncreaseCritChance": {
+            "Amount": 400
+          }
+        }
+        ]
+         }
+       }
+  ],
+"TrackJacket": [
+    {
+      "IncreaseSpeed": {
+        "Amount": 2
+      }
+    },
+    {
+    "IncreaseDefense": {
+      "Amount": -1
+    }
+    },
+    {
+      "IncreaseMaxEnergy": {
+        "Amount": 30
+      }
+    },
+    {
+      "StaminaRegen": {
+        "SecondsToStandStill": 2,
+        "RegenIntervalSeconds": 1,
+        "RegenAmount": 3,
+        "GlowColor": {
+          "B": 128,
+          "G": 0,
+          "R": 128,
+          "A": 255
+        }
+      }
+    }
+  ],
+  "CamoShirt":[
+    {
+      "DodgeChance": {
+        "Chance": 50
+      }
+    },
+    {
+      "NPCEffect": {
+        "NPC": "Kent",
+        "Amount": 35,
+	"Type": 1
+      }
+    },
+    {
+      "NPCEffect": {
+        "NPC": "Kent",
+        "Amount": 25,
+	"Type": 0
+      }
+    },
+    {
+      "IncreaseDefense": {
+        "Amount": -7
+      }
+    }
+  ],
+  "IslandBikini": [
+    {
+      "IncreaseSpeed": {
+        "Amount": 1
+      }
+    },
+    {
+    "IncreaseDefense": {
+      "Amount": -8
+    }
+    },
+    "LewisDisapproves",
+    {
+      "Locational": {
+        "Location": "IslandPlaces",
+        "Effect": [
+          "IncreasePopularity",
+          "IncreasePopularity",
+          "IncreasePopularity"
+        ]
+      }
+    }
+  ],
+  "RedTuxedo": [
+    {
+      "IncreaseAttack": {
+        "Amount": 8
+      }
+    },
+    {
+      "OnKill": {
+        "UniqueEff": 0,
+        "Amount": 15
+      }
+    },
+    {
+      "OnKill": {
+        "UniqueEff": 1,
+        "Amount": 10
+      }
+    },
+    {
+      "IncreaseDefense": {
+        "Amount": -12
+      }
+    },   
+    "IncreasePopularity"
+  ],
+  "RedButtoned": [
+    {
+      "IncreaseDefense": {
+        "Amount": 3
+      }
+    },
+    {
+      "OnKill": {
+        "UniqueEff": 0,
+        "Amount": 15
+      }
+    },
+    {
+      "OnKill": {
+        "UniqueEff": 1,
+        "Amount": 10
+      }
+    }
+  ],
+  "MorelShirt": [
+    "ProfessionalForager"
+  ],
+"OrangeGi": [
+    {
+    "IncreaseDefense": {
+      "Amount": 2
+    }
+  },
+  {
+    "IncreaseAttack": {
+      "Amount": 4
+    }
+  }
+  ],
+  "AntiquityShirt": [
+    {
+    "IncreaseDefense": {
+      "Amount": 3
+    }
+  },
+  {
+    "IncreaseImmunity": {
+      "Amount": 4
+    }
+  },
+  {
+  "Ring": {
+    "Ring": "SturdyRing"
+  }
+}
+  ],
+  "RegalMantle": [
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Luck",
+      "Amount": 1
+    }
+  },
+{
+  "Ring": {
+    "Ring": "YobaRing"
+  }
+},
+{
+  "ShopDiscount": {
+    "Shop": "Pierre",
+    "Discount": 0.15
+  }
+}
+  ],
+  "StoreOwnersJacket": [
+    {
+      "ShopDiscount": {
+        "Shop": "Pierre",
+        "Discount": 0.1
+      }
+    }
+  ],
+  "SilkyShirt": [
+    {
+    "DodgeChance": {
+      "Chance": 25
+    }
+  },
+  {
+    "IncreaseImmunity": {
+      "Amount": 6
+    }
+  }
+  ],
+"YellowSuit": [
+  {
+    "ShopDiscount": {
+      "Shop": "Willy",
+      "Discount": 0.1
+    }
+},
+{
+  "ShopDiscount": {
+    "Shop": "Clint",
+    "Discount": 0.1
+  }
+},
+{
+  "ShopDiscount": {
+    "Shop": "Robin",
+    "Discount": 0.1
+  }
+},
+{
+  "ShopDiscount": {
+    "Shop": "Pierre",
+    "Discount": 0.1
+  }
+},
+{
+  "ShopDiscount": {
+    "Shop": "Marnie",
+    "Discount": 0.1
+  }
+},
+{
+  "ShopDiscount": {
+    "Shop": "Krobus",
+    "Discount": 0.1
+  }
+},
+{
+  "ShopDiscount": {
+    "Shop": "Sandy",
+    "Discount": 0.1
+  }
+},
+{
+  "ConstructDiscount": {
+    "Discount": 0.1
+  }
+},
+{
+  "ShopDiscount": {
+    "Shop": "JojaMarket",
+    "Discount": 0.1
+  }
+}
+],
+"DarknessSuit": [
+	{
+    "Locational": {
+    "Location": "UndergroundPlaces",
+    "Effect": [
+      {
+        "IncreaseSpeed": {
+          "Amount": 2
+        }
+      }
+    ]
+   }
+  },
+  {
+    "ShopDiscount": {
+      "Shop": "Krobus",
+      "Discount": 0.20
+    }
+}
+],
+"DarkBandanaShirt": [
+  "Mercenery",
+  {
+    "OnKill": {
+      "UniqueEff": 1,
+      "Amount": 5
+    }
+  },
+  {
+    "IncreaseAttackMultiplier": {
+      "Amount": 20
+    }
+  }
+],
+"DarkHighlightShirt": [
+  "Mercenery",
+  {
+    "OnKill": {
+      "UniqueEff": 0,
+      "Amount": 10
+    }
+  },
+  {
+    "IncreaseCritChance": {
+      "Amount": 30
+    }
+  }
+],
+"NeatBowShirt": [
+  "ParryBoost",
+  {
+    "IncreaseSpeed": {
+      "Amount": 1
+    }
+  },
+  {
+    "IncreaseMaxHealth": {
+      "Amount": 35
+    }
+  },
+  {
+    "IncreaseMaxEnergy": {
+      "Amount": 35
+    }
+  },
+  {
+    "IncreaseWeaponSpeed": {
+      "Amount": 70
+    }
+  }
+],
+  "BeltedCoat": {
+    "Seasonal": {
+      "Season": "Winter",
+      "Effect": [
+        {
+          "IncreaseMaxEnergy": {
+            "Amount": 40
+          }
+        },
+        {
+          "IncreaseMaxHealth": {
+            "Amount": 40
+          }
+        },
+        {
+          "IncreaseDefense": {
+            "Amount": 3
+          }
+        }
+      ]
+    }
+  },
+  "1210": {
+    "IncreaseMaxHealth": {
+      "Amount": 60
+    }
+  },
+  "CopperBreastplate": [
+    {
+    "IncreaseDefense": {
+      "Amount": 1
+    }
+  },
+  {
+    "Ring": {
+      "Ring": "ProtectiveRing"
+    }
+  }
+  ],
+  "SteelBreastplate": [
+    {
+    "IncreaseDefense": {
+      "Amount": 2
+    }
+  },
+  {
+    "Ring": {
+      "Ring": "ProtectiveRing"
+    }
+  }
+  ],
+  "GoldBreastplate": [{
+    "IncreaseDefense": {
+      "Amount": 3
+    }
+  },
+  {
+    "Ring": {
+      "Ring": "ProtectiveRing"
+    }
+  }
+  ],
+  "IridiumBreastplate": [{
+    "IncreaseDefense": {
+      "Amount": 5
+    }
+  },
+  {
+    "Ring": {
+      "Ring": "ProtectiveRing"
+    }
+  }
+  ],
+  "FakeMusclesShirt": [
+	{
+    "IncreaseAttack": {
+      "Amount": 5
+    }
+  },
+    {
+      "NPCEffect": {
+        "NPC": "Alex",
+        "Amount": -200,
+	"Type": 3
+      }
+    }
+],
+"CarpShirt": [
+  {
+    "ItemHeldEffect": {
+      "ItemId": "Carp",
+      "Effect": [
+      {
+        "IncreaseAttack": {
+          "Amount": 100
+        }
+      }
+      ]
+       }
+     }
+],
+  "CavemanShirt": {
+    "IncreaseAttack": {
+      "Amount": 5
+    }
+  },
+  "FishingVest": [
+    "FishPondCommitment",
+    {
+      "Baitproduce": {
+        "Steps": 5
+      }
+    },  
+    "Recycler",
+    {
+      "Locational": {
+        "Location": "FarmPlaces",
+        "Effect": [
+          {
+            "IncreaseSkillLevel": {
+              "Skill": "Fishing",
+              "Amount": 2
+            }
+          }
+        ]
+      }
+  },
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Fishing",
+      "Amount": 2
+    }
+  }
+],
+ "FishShirt": [
+    {
+    "MultiplyExperience": {
+      "Skill": "Fishing",
+      "Multiplier": 1.2
+    }
+  },
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Fishing",
+      "Amount": 3
+    }
+  }
+],
+"BrownJacket": [
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Mining",
+      "Amount": 2
+    }
+  }
+],
+"GoldenShirt": [
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Mining",
+      "Amount": 5
+    }
+  },
+  {
+    "Ring": {
+      "Ring": "BurglarsRing"
+    }
+  },
+  {
+    "Glow": {
+      "Radius": 1,
+      "Color": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 252
+      }
+    }
+  }
+],
+"GaudyShirt": [
+  "IncreasePopularity",
+  {
+    "IncreaseSkillLevel": {
+      "Skill": "Foraging",
+      "Amount": 2
+    }
+  }
+],
+"FluffyShirt": [
+  {
+    "Locational": {
+      "Location": "FarmPlaces",
+      "Effect": [
+        {
+          "IncreaseSkillLevel": {
+            "Skill": "Combat",
+            "Amount": 6
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Locational": {
+      "Location": "UndergroundPlaces",
+      "Effect": [
+        {
+          "health": {
+            "health": "Low",
+            "Effect": {
+               "IncreaseSpeed": {
+               "Amount": 10
+              }
+             }
+           }
+          }
+      ]
+    }
+  }
+],
+  "1214": {
+      "Locational": {
+        "Location": "WaterPlaces",
+        "Effect": [
+          {
+            "IncreaseSkillLevel": {
+              "Skill": "Fishing",
+              "Amount": 5
+            }
+          },
+          {
+            "MultiplyExperience": {
+            "Skill": "Fishing",
+            "Multiplier": 1.5
+          }
+        }
+        ]
+      }
+  },
+  "SailorShirt_2": "FishPondCommitment",
+  "GlobbyShirt": [
+    "FishPondCommitment"
+  ],
+  "ShrimpEnthusiastShirt": {
+    "Baitproduce": {
+      "Steps": 2
+    }
+  },
+  "OceanShirt": {
+    "ShopDiscount": {
+      "Shop": "Willy",
+      "Discount": 0.10
+    }
+  },
+  "CaptainsUniform": [
+    "IncreaseFishingTreasureChestChance",
+    {
+      "IncreaseAttack": {
+        "Amount": 3
+      }
+    },
+    "IncreasePopularity"
+  ],
+  "GoldTrimmedShirt":[
+    {
+      "IncreaseCritChance": {
+        "Amount": 100
+      }
+    },
+    {
+      "IncreaseCritDamage": {
+        "Amount": 200
+      }
+    }
+  ],
+  "1236": "LewisDisapproves",
+  "BridalShirt": {
+    "IncreaseSkillLevel": {
+      "Skill": "Luck",
+      "Amount": 2
+    }
+  },
+  "BrownSuit":[
+    "AutoWater",
+    {
+    "IncreaseSkillLevel": {
+      "Skill": "Farming",
+      "Amount": 2
+    }
+  }
+  ],
+  "TomatoShirt": {
+    "MultiplyExperience": {
+      "Skill": "Farming",
+      "Multiplier": 1.4
+    }
+  },
+  "GreenBeltedShirt": {
+    "MultiplyExperience": {
+      "Skill": "Mining",
+      "Multiplier": 1.15
+    }
+  },
+  "CrabCakeShirt": [
+    {
+      "IncreaseAttackMultiplier": {
+        "Amount": 20
+      }
+    },
+    {
+      "IncreaseDefense": {
+        "Amount": 3
+      }
+    }
+  ],
+  "WhiteGi": [
+    {
+    "IncreaseDefense": {
+      "Amount": 2
+    }
+  },
+  {
+    "IncreaseAttack": {
+      "Amount": 3
+    }
+  },
+  {
+    "IncreaseCritChance": {
+      "Amount": 50
+    }
+  }
+],
+"WhiteOveralls": [
+  {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Any"
+    }
+  },
+  "LovingRancher"
+],
+"WhiteOverallsShirt": [
+  {
+    "PetAnimalOnTouch": {
+      "AnimalType": "Any"
+    }
+  },
+  "LovingRancher"
+],
+  "StuddedVest": [
+    {
+    "IncreaseAttack": {
+      "Amount": 2
+    }
+  },
+  {
+    "Spikey": {
+      "ExtraDamage": 20
+    }
+  }
+  ],
+  "BlacksmithApron": [
+  {
+    "ShopDiscount": {
+      "Shop": "Clint",
+      "Discount": 0.30
+    }
+  },
+  {
+    "IncreaseDefense": {
+      "Amount": 2
+      }
+  }
+  ],
+  "IridiumEnergyShirt": {
+    "StaminaRegen": {
+      "SecondsToStandStill": 5,
+      "RegenIntervalSeconds": 1,
+      "RegenAmount": 40,
+      "GlowColor": {
+        "B": 0,
+        "G": 128,
+        "R": 0,
+        "A": 255
+      }
+    }
+  },
+  "1143": [
+    {
+    "StaminaRegen": {
+      "SecondsToStandStill": 0,
+      "RegenIntervalSeconds": 1,
+      "RegenAmount": 1,
+      "GlowColor": {
+        "B": 0,
+        "G": 128,
+        "R": 0,
+        "A": 255
+      }
+    }
+  },
+  {
+    "HealthRegen": {
+      "SecondsToStandStill": 0,
+      "RegenIntervalSeconds": 1,
+      "RegenAmount": 1,
+      "GlowColor": {
+        "B": 0,
+        "G": 128,
+        "R": 0,
+        "A": 255
+      }
+    }
+  },
+  "ParryBoost",
+  {
+    "IncreaseWeaponSpeed": {
+      "Amount": 400
+    }
+  }
+  ],
+  "HappyShirt": "IncreasePopularity",
+  "1203": [
+    {
+    "IncreaseDefense": {
+      "Amount": 3
+    }
+  },
+    "Mercenery",
+  {
+    "DodgeChance": {
+      "Chance": 15
+      }
+    }
+  ],
+  "1206": [
+    {
+    "IncreaseDefense": {
+      "Amount": 3
+    }
+  },
+    "Mercenery",
+  {
+    "DodgeChance": {
+      "Chance": 15
+      }
+    }
+  ],
+  "1195": [
+    {
+    "IncreaseDefense": {
+      "Amount": 3
+    }
+  },
+    "Mercenery",
+  {
+    "DodgeChance": {
+      "Chance": 15
+      }
+    }
+  ],
+  "GreenThumbShirt": {
+    "IncreaseSkillLevel": {
+      "Skill": "Farming",
+      "Amount": 3
+    }
+  },
+  "ExcavatorShirt": [
+    {
+      "DepthScale": {
+        "recursiveFloors": 25,
+        "Effect": [
+          {
+            "IncreaseStats": {
+                "Amount": 1
+            }
+            }
+        ]
+      }
+    },
+    "ScalingOreGrowth"
+  ],
+  "PurpleBlouse": [
+    {
+      "MeleePower": {
+        "WeaponID": 0,
+        "Effect": [
+          {
+            "IncreaseCritChance": {
+                "Amount": 350
+            }
+          },
+          {
+            "IncreaseStats": {
+                "Amount": 2
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "PendantShirt": [
+    {
+      "MeleePower": {
+        "WeaponID": 2,
+        "Effect": [
+          {
+            "IncreaseAttack": {
+                "Amount": 6
+            }
+          },
+          {
+            "IncreaseKnockback": {
+                "Amount": 1000
+            }
+          },
+    	{
+     	 "Napalm": {
+    	    "ExtraDamage": 8
+    	  }
+   	 },
+          {
+            "IncreaseWeaponSpeed": {
+                "Amount": -100
+            }
+          },
+          {
+            "IncreaseSpeed": {
+                "Amount": -2
+            }
+          },
+          {
+            "IncreaseAttackMultiplier": {
+                "Amount": 125
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "BackpackShirt": [
+    {
+      "MeleePower": {
+        "WeaponID": 1,
+        "Effect": [
+          {
+            "Locational": {
+              "Location": "UndergroundPlaces",
+              "Effect": [
+                {
+                  "IncreaseSpeed": {
+                      "Amount": 15
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "IncreaseWeaponSpeed": {
+                "Amount": 250
+            }
+          },
+          {
+            "IncreaseCritChance": {
+                "Amount": -100
+            }
+          },
+          {
+            "IncreaseDefense": {
+                "Amount": -150
+            }
+          },
+  	{
+	    "Ring": {
+     	 "Ring": "BurglarsRing"
+   	 }
+ 	 },
+          {
+            "IncreaseCritDamage": {
+                "Amount": -100
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "SkullShirt": {
+    "DepthScale": {
+      "recursiveFloors": 25,
+      "Effect": [
+        {
+          "IncreaseStats": {
+              "Amount": 1
+          }
+          }
+      ]
+    }
+  },
+  "CowboyPoncho": [
+    {
+      "RangedPower": {
+        "Effect": [
+          {
+            "IncreaseAttack": {
+                "Amount": 50
+            }
+            }
+        ]
+      }
+    },
+    {
+      "IncreaseSpeed": {
+        "Amount": 1
+        }
+      },
+    "IncreasePopularity",
+    {
+      "Locational": {
+        "Location": "FarmPlaces",
+        "Effect": [
+          {
+            "StaminaRegen": {
+              "SecondsToStandStill": 2,
+              "RegenIntervalSeconds": 1,
+              "RegenAmount": 3,
+              "GlowColor": {
+                "B": 128,
+                "G": 0,
+                "R": 128,
+                "A": 255
+              }
+            }
+          }
+        ]
+      }
+    },
+    "LovingRancher"
+  ],
+  "GreenJacketShirt": [
+    {
+      "IncreaseSpeed": {
+        "Amount": 1
+        }
+      },
+      {
+        "Ring": {
+          "Ring": "SlimeCharmerRing"
+        }
+      },
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Foraging",
+        "Amount": 2
+      }
+    },
+    "ProfessionalForager",
+    {
+      "Sapping": {
+        "Chance": 10
+      }
+    }
+  ],
+  "FringedVest": [
+    {
+      "IncreaseDefense": {
+        "Amount": 2
+        }
+      },
+    "ScalingOreGrowth"
+  ],
+  "GingerOveralls": [
+    {
+      "IncreaseAttack": {
+        "Amount": 1
+        }
+      },
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Luck",
+        "Amount": 1
+      }
+    },
+    {
+      "Locational": {
+      "Location": "IslandPlaces",
+      "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": 1
+          }
+        },
+        {
+          "IncreaseSkillLevel": {
+            "Skill": "Luck",
+            "Amount": 1
+          }
+        }
+      ]
+     }
+    }
+  ],
+  "SoftEdgePullover":[
+    {
+      "IncreaseSkillLevel": {
+        "Skill": "Luck",
+        "Amount": 3
+      }
+    },
+    {
+      "IncreaseDefense": {
+        "Amount": -10
+      }
+    },
+    "IncreaseFishingTreasureChestChance",
+    "IncreaseFishingTreasureChestChance",
+    "IncreaseFishingTreasureChestChance",
+    "IncreaseFishingTreasureChestChance"
+  ],
+  "ArcaneShirt": [
+    {
+    "IncreaseImmunity": {
+      "Amount": 5
+      }
+    },
+    {
+      "IncreaseMagnetism": {
+        "Amount": 7
+      }
+    },
+    {
+      "IncreaseCritDamage": {
+        "Amount": 50
+        }
+      },
+    {
+      "DodgeChance": {
+        "Chance": 15
+        }
+      },
+      {
+        "Weather": {
+          "Weather": "Stormy",
+          "Effect": [
+            {
+            "DodgeChance": {
+              "Chance": 25
+            }
+          },
+          {
+            "IncreaseCritChance": {
+              "Amount": 50
+            }
+          }
+          ]
+           }
+         }
+  ],
+  "YobaShirt": [
+    {
+    "Ring": {
+      "Ring": "YobaRing"
+    }
+    },
+    "AutoRevive"
+  ],
+  "PrismaticShirt": {
+    "IncreaseMaxHealth": {
+      "Amount": 55
+    }
+  },
+  "PrismaticShirt_DarkSleeves": [
+    "AutoRevive",
+    {
+      "IncreaseDefense": {
+        "Amount": -10
+      }
+    }
+  ],
+  "PrismaticShirt_WhiteSleeves": {
+    "IncreaseMaxEnergy": {
+      "Amount": 55
+    }
+  },
+  "RangerUniform": {
+    "MultiplyExperience": {
+      "Skill": "Foraging",
+      "Multiplier": 1.3
+    }
+  },
+  "GreenTunic": [{
+    "ShopDiscount": {
+      "Shop": "AdventureGuild",
+      "Discount": 0.20
+    }
+  },
+  "ParryBoost"
+  ],
+  "OasisGown": [
+	{
+    "ShopDiscount": {
+      "Shop": "Sandy",
+      "Discount": 0.35
+    }
+  },
+    {
+      "NPCEffect": {
+        "NPC": "Sandy",
+        "Amount": 200,
+	"Type": 2
+      }
+    }
+],
+"CircuitboardShirt":[
+    {
+      "NPCEffect": {
+        "NPC": "Maru",
+        "Amount": 100,
+	"Type": 3
+      }
+    },
+    {
+      "NPCEffect": {
+        "NPC": "Maru",
+        "Amount": 50,
+	"Type": 0
+      }
+    }
+],
+"DirtShirt": [
+    {
+      "NPCEffect": {
+        "NPC": "Haley",
+        "Amount": -500,
+	"Type": 0
+      }
+    }
+],
+  "GreenVest": [
+    "ScalingOreGrowth"
+  ],
+  "GreenOveralls": [
+    "ProfessionalForager"
+  ],
+  "KelpShirt": [
+    "Recycler"
+  ],
+  "LeafyTop": [
+    {
+      "Sapping": {
+        "Chance": 7
+      }
+    }
+  ],
+  "BananaShirt": [
+    {
+      "Sapping": {
+        "Chance": 14
+      }
+    },
+    {
+      "Locational": {
+      "Location": "IslandPlaces",
+      "Effect": [
+        {
+          "IncreaseSpeed": {
+            "Amount": 2
+          }
+        },
+        {
+          "IncreaseMaxEnergy": {
+            "Amount": 20
+          }
+        }
+      ]
+     }
+    }
+  ],
+  "SailorShirt": [
+    "FishPondCommitment"
+  ],
+  "LightBlueStripedShirt": [
+    {
+    "Baitproduce": {
+      "Steps": 10
+    }
+  }
+  ],
+  "LimeGreenTunic": {
+    "IncreaseDefense": {
+      "Amount": 1
+    }
+  },
+  "StarShirt": {
+    "Glow": {
+      "Radius": 7,
+      "Color": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 252
+      }
+    }
+  },
+
+  "SlimeShirt": [{
+    "Ring": {
+      "Ring": "SlimeCharmerRing"
+    }
+  },
+	{
+    "Glow": {
+      "Radius": 2,
+      "Color": {
+        "B": 252,
+        "G": 0,
+        "R": 252,
+        "A": 252
+      }
+    }
+  }
+	],
+  "GraySuit": {
+    "ShopDiscount": {
+      "Shop": "JojaMarket",
+      "Discount": 0.15
+    }
+  }
+}

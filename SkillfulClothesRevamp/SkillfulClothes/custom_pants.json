@@ -1,0 +1,192 @@
+{
+  "FarmerPants": [
+    {
+    "IncreaseSkillLevel": {
+      "Skill": "Farming",
+      "Amount": 1
+    }
+  },
+  {
+    "MultiplyExperience": {
+      "Skill": "Farming",
+      "Multiplier": 1.15
+    }
+  }
+],
+  "Shorts": [
+    {
+    "IncreaseSkillLevel": {
+      "Skill": "Foraging",
+      "Amount": 1
+    }
+  },
+  {
+    "MultiplyExperience": {
+      "Skill": "Foraging",
+      "Multiplier": 1.15
+    }
+  }
+],
+  "Dress": [
+    {
+    "IncreaseSkillLevel": {
+      "Skill": "Mining",
+      "Amount": 1
+    }
+  },
+  {
+    "MultiplyExperience": {
+      "Skill": "Mining",
+      "Multiplier": 1.15
+    }
+  }
+  ],
+  "Skirt": [
+    {
+    "IncreaseSkillLevel": {
+      "Skill": "Fishing",
+      "Amount": 1
+    }
+  },
+  {
+    "MultiplyExperience": {
+      "Skill": "Fishing",
+      "Multiplier": 1.15
+    }
+  }
+],
+  "DinosaurPants": [
+    {
+    "IncreaseDefense": {
+      "Amount": 3
+    }
+  },
+  {
+    "IncreaseSpeed": {
+      "Amount": -1
+    }
+  },
+  {
+    "IncreaseAttack": {
+      "Amount": 4
+    }
+  }
+],
+"SimpleDress": [
+  {
+  "IncreaseAttack": {
+    "Amount": 1
+  }
+  },
+  {
+  "IncreaseCritChance": {
+    "Amount": 10
+  }
+}
+],
+"BaggyPants": [
+  {
+  "IncreaseSkillLevel": {
+    "Skill": "Combat",
+    "Amount": 2
+  }
+},
+{
+  "MultiplyExperience": {
+    "Skill": "Combat",
+    "Multiplier": 1.2
+  }
+}
+],
+"PleatedSkirt": [
+  {
+      "IncreaseDefense": {
+        "Amount": -1
+      }
+  },
+  {
+    "IncreaseSpeed": {
+      "Amount": 1
+    }
+}
+],
+"RelaxedFitPants": [
+  {
+      "IncreaseDefense": {
+        "Amount": 2
+      }
+  },
+  {
+    "IncreaseAttack": {
+      "Amount": 1
+    }
+}
+],
+"RelaxedFitShorts": [
+  {
+      "IncreaseDefense": {
+        "Amount": 1
+      }
+  },
+  {
+    "IncreaseAttack": {
+      "Amount": 2
+    }
+}
+],
+  "GeniePants": {
+    "IncreaseSkillLevel": {
+      "Skill": "Luck",
+      "Amount": 1
+    }
+  },
+  "PrismaticPants": {
+    "IncreaseMaxHealth": {
+      "Amount": 35
+    }
+  },
+  "PrismaticGeniePants": {
+    "IncreaseMaxEnergy": {
+      "Amount": 60
+    }
+  },
+  "GrassSkirt": [
+    {
+    "Sapping": {
+	"Chance": 5
+    }
+    },
+    {
+    "IncreaseSkillLevel": {
+      "Skill": "Foraging",
+      "Amount": 1
+    }
+  }
+],
+  "TrimmedLuckyPurpleShorts": [
+    "IncreasePopularity",
+    "LewisDisapproves"
+  ],
+  "TightPants": [
+    {
+      "IncreaseDefense": {
+        "Amount": 1
+      }
+  },
+  {
+    "IncreaseAttack": {
+      "Amount": 1
+    }
+  },
+  {
+    "IncreaseSpeed": {
+      "Amount": 1
+    }
+  },
+  {
+    "IncreaseAttackMultiplier": {
+      "Amount": 10
+    }
+  }
+  ]
+}

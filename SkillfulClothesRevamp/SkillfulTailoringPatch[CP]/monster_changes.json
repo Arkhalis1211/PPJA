@@ -1,0 +1,558 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Green Slime": { 
+          0: "{{round: {{query: 1 * 24 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 5 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 4 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, + }} {{ random: 0, 0, 1, 1, 2 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Dust Spirit": { 
+          0: "{{round: {{query: 1 * 40 * {{random: 0.6 , 0.7 , 0.8 , 0.9 , 1.{{random:{{range:0,2}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 6 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 4 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, + }} {{ random: 0, 0, 1, 1, 2 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Bat": { 
+          0: "{{round: {{query: 1 * 24 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 6 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 4 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, + }} {{ random: 0, 0, 1, 1, 2 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Frost Bat": { 
+          0: "{{round: {{query: 1 * 36 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 7 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 4 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, + }} {{ random: 0, 0, 1, 1, 2 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Lava Bat": { 
+          0: "{{round: {{query: 1 * 80 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 15 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 4 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: ( 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Iridium Bat": { 
+          0: "{{round: {{query: 1 * 300 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 30 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 4 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: ( 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Stone Golem": { 
+          0: "{{round: {{query: 1 * 45 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 5 * 1.2 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 3 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Wilderness Golem": { 
+          0: "{{round: {{query: 1 * 30 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 5 * 1.2 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 3 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Grub": { 
+          0: "{{round: {{query: 1 * 20 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 4 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 3 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 1 + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Fly": { 
+          0: "{{round: {{query: 1 * 22 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 6 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 13 {{random: +, +, +, - }} {{random: 0, 1, 2, 3, 4 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Frost Jelly": { 
+          0: "{{round: {{query: 1 * 106 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 7 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 4 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Sludge": { 
+          0: "{{round: {{query: 1 * 205 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 16 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 4 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Ghost": { 
+          0: "{{round: {{query: 1 * 96 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 10 * 1.3 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          9: "{{query: 12 {{random: +, +, +, - }} {{random: 0, 1, 2, 3, 4 }} }}",
+          10: "{{query: 4 {{random: +, +, +, - }} {{ random: 0, 1, 1, 2 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Carbon Ghost": { 
+          0: "{{round: {{query: 1 * 190 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 25 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          9: "{{query: 12 {{random: +, +, +, - }} {{random: 0, 1, 2, 3, 4 }} }}",
+          10: "{{query: 4 {{random: +, +, +, - }} {{ random: 0, 1, 1, 2 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Duggy": { 
+          0: "{{round: {{query: 1 * 40 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 6 * 1.2 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Rock Crab": { 
+          0: "{{round: {{query: 1 * 30 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 5 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Lava Crab": { 
+          0: "{{round: {{query: 1 * 120 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 15 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          10: "{{query: ( 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Iridium Crab": { 
+          0: "{{round: {{query: 1 * 240 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 15 * 1.2 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          10: "{{query: ( 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Fireball": { 
+          1: "{{round: {{query: 1 * 18 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          10: "{{query: 2 {{random: +, +, +, + }} {{ random: 0, 0, 1, 1, 2 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Squid Kid": { 
+          1: "{{round: {{query: 1 * 18 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          9: "{{query: ( 6 {{random: +, - }} {{random: 0, 1 }} ) + {{random: 0, 1 }} }}",
+          10: "{{query: ( 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Skeleton Warrior": { 
+          0: "{{round: {{query: 1 * 300 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 12 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          9: "{{query: ( 5 {{random: +, - }} {{random: 0, 1 }} ) + {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Shadow Brute": { 
+          0: "{{round: {{query: 1 * 160 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 18 * 1.2 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          9: "{{query: ( 8 {{random: +, - }} {{random: 0, 1 }} ) + {{random: 0, 1, 2 }} }}",
+          10: "{{query: ( 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Shadow Shaman": { 
+          0: "{{round: {{query: 1 * 80 * 1.2 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 17 * 1.2 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          9: "{{query: ( 8 {{random: +, - }} {{random: 0, 1 }} ) + {{random: 0, 1, 2 }} }}",
+          10: "{{query: ( 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Skeleton": { 
+          0: "{{round: {{query: 1 * 140 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 10 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 2000  }} }}",
+          9: "{{query: ( 8 {{random: +, - }} {{random: 0, 1 }} ) + {{random: 0, 1, 2 }} }}",
+          10: "{{query: ( 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Skeleton Mage": { 
+          0: "{{round: {{query: 1 * 60 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 5 * 1.3 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 2000  }} }}",
+          9: "{{query: ( 8 {{random: +, - }} {{random: 0, 1 }} ) + {{random: 0, 1, 2 }} }}",
+          10: "{{query: ( 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Metal Head": { 
+          0: "{{round: {{query: 1 * 40 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 15 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 2000  }} }}",
+          9: "{{query: ( 8 {{random: +, - }} {{random: 0, 1 }} ) + {{random: 0, 1 }} }}",
+          10: "{{query: ( 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Spiker": { 
+          0: "{{round: {{query: 1 * 5 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 5 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 2000  }} }}",
+          9: "{{query: ( 8 {{random: +, - }} {{random: 0, 1 }} ) + {{random: 0, 1 }} }}",
+          10: "{{query: ( 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Bug": { 
+          1: "{{round: {{query: 1 * 8 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          10: "{{query: ( 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Mummy": { 
+          0: "{{round: {{query: 1 * 260 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 30 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: ( 8 {{random: +, - }} {{random: 0, 1 }} ) + {{random: 0, 1, 2 }} }}",
+          10: "{{query: ( 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Big Slime": { 
+          0: "{{round: {{query: 1 * 60 * 1.5 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 5 * 1.3 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 5 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: ( 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Serpent": { 
+          0: "{{round: {{query: 1 * 150 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 23 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: ( 13 {{random: +, - }} {{random: 0, 1 }} ) + {{random: 0, 1, 2 }} }}",
+          10: "{{query: ( 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} ) + {{ random: 0, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Pepper Rex": { 
+          0: "{{round: {{query: 1 * 300 * 1.3 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 15 * 1.2 * {{random: 1.{{random:{{range:0,4}}}} , 1.{{random:{{range:5,9}}}} }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 3 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Tiger Slime": { 
+          0: "{{round: {{query: 1 * 415 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 23 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 4 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Lava Lurk": { 
+          0: "{{round: {{query: 1 * 220 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 15 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 3 {{random: +, - }} {{random: 0, 1 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Hot Head": { 
+          0: "{{round: {{query: 1 * 250 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 18 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 8 {{random: +, - }} {{random: 0, 1, 2, 3 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Magma Sprite": { 
+          0: "{{round: {{query: 1 * 220 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 15 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          5: "{{round: {{query: 2000  }} }}",
+          9: "{{query: 8 {{random: +, - }} {{random: 0, 1, 2, 3 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Magma Duggy": { 
+          0: "{{round: {{query: 1 * 380 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 16 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Magma Sparker": { 
+          0: "{{round: {{query: 1 * 310 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 15 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          5: "{{round: {{query: 2000  }} }}",
+          9: "{{query: 8 {{random: +, - }} {{random: 0, 1, 2, 3 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "False Magma Cap": { 
+          0: "{{round: {{query: 1 * 290 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 15 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          10: "{{query: 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Dwarvish Sentry": { 
+          0: "{{round: {{query: 1 * 300 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 18 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          10: "{{query: 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Putrid Ghost": { 
+          0: "{{round: {{query: 1 * 500 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 25 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          9: "{{query: 12 {{random: +, - }} {{random: 0, 1, 2, 3, 4 }} }}",
+          10: "{{query: 4 {{random: +, +, +, - }} {{ random: 0, 1, 2 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Shadow Sniper": { 
+          0: "{{round: {{query: 1 * 300 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 18 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          9: "{{query: 8 {{random: +, - }} {{random: 0, 1, 2, 3 }} }}",
+          10: "{{query: 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Spider": { 
+          0: "{{round: {{query: 1 * 200 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 15 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          9: "{{query: 8 {{random: +, - }} {{random: 0, 1, 2, 3 }} }}",
+          10: "{{query: 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Royal Serpent": { 
+          0: "{{round: {{query: 1 * 150 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 23 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          5: "{{round: {{query: 1000  }} }}",
+          9: "{{query: 13 {{random: +, - }} {{random: 0, 1, 2, 3, 4, 5 }} }}",
+          10: "{{query: 2 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/monsters",
+      "Fields": {
+        "Blue Squid": { 
+          0: "{{round: {{query: 1 * 80 * {{random: 0.95 , 1.{{random:{{range:1,4}}}} , 1.{{random:{{range:5,7}}}} }} }} }}",
+          1: "{{round: {{query: 1 * 18 * {{random: 1.{{random:{{range:0,4}}}} , 1.5 }} }} }}",
+          9: "{{query: 6 {{random: +, - }} {{random: 0, 1, 2 }} }}",
+          10: "{{query: 3 {{random: +, +, +, - }} {{ random: 0, 1, 1 }} }}"
+        }
+      }
+    }
+  ]
+}
